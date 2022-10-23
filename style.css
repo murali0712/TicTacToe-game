@@ -10,17 +10,25 @@
   background:#56baed;
 }
 body{
-  background:lightgoldenrodyellow;
+  background-image: url("g1.jpg");
+  
+height: 100%;
+  /* Center and scale the image nicely */
+  
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
+
+
 .select-box, .play-board, .result-box{
-  position: absolute;
+  position:absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
 }
 .select-box{
-  background: #fff;
+  background:lightcyan;
   padding: 20px 25px 25px;
   border-radius: 5px;
   max-width: 400px;
@@ -94,7 +102,7 @@ body{
 .play-board .details{
   padding: 7px;
   border-radius: 5px;
-  background: #fff;
+  background:lightcyan;
 }
 .play-board .players{
   width: 100%;
@@ -116,13 +124,13 @@ body{
   transition: all 0.3 ease;
 }
 .players.active span:first-child{
-  color: #fff;
+  color:lightcyan;
 }
 .players.active span:last-child{
   color: darkcyan;
 }
 .players span:first-child{
-  color: #fff;
+  color:lightcyan;
 }
 .players .slider{
   position: absolute;
@@ -163,7 +171,7 @@ body{
   line-height: 80px;
   text-align: center;
   border-radius: 5px;
-  background: #fff;
+  background:lightcyan;
 }
 .result-box{
   padding: 25px 20px;
@@ -172,7 +180,7 @@ body{
   width: 100%;
   opacity: 0;
   text-align: center;
-  background: #fff;
+  background:lightcyan;
   pointer-events: none;
   transform: translate(-50%, -50%) scale(0.9);
 }
